@@ -1,0 +1,86 @@
+body {	
+	background:url(../imagenes/fondoG.jpg);
+	color:#000;
+	background-repeat:repeat; 
+	background-attachment:fixed;
+	background-position:0px 0px; 
+	width:;
+}
+h1,h2 {
+	color:#CEDACC;	
+}
+p a{
+	color:#000;
+	font-size:20px; 
+}
+p{
+	font-family:arial;
+	text-decoration:underline;
+	text-transform:capitalize; 
+	letter-spacing:normal;
+	word-spacing:20px;
+	text-shadow:2px 2px 10px #fff;    
+}
+/* con text-shadow podes poner sombra al  texto*/
+.green {
+	color:green;
+}
+ul li a {
+	color:yellow;
+	font-size:1,5em; 
+}
+.texto{
+	color:#fff;
+	background-color:aqua; 
+}
+.prueba{
+	width:50%;
+	height:200px;
+	background:#ff8000;
+	padding:30px;   
+	border:10px solid #000;
+	font-size:40px; 
+}
+/* en border puede ir solid o dotted, hay otros igual*/
+
+.caja{
+	position:fixed;
+	top:;
+	bottom:500px;
+	right:;
+	left:1000px; 
+	height:100px; 
+	width:100px; 
+	background:green;
+	color:#fff;
+	font-size:50px; 
+}
+a{
+	font-size:30px;
+	margin:2px 20px 2px 20px;
+	padding:5px 10px;
+	text-decoration:none; 
+	background:#3BA7E1;
+	box-shadow:0px 5px 0px #000;    
+}
+a:link{
+	color:;
+}	
+	
+a:hover{
+	text-decoration:underline; 
+    background:#;
+    color:#000; 
+    box-shadow:0px 2px 0px #000; 
+}
+a:visited{
+	color:;
+}
+a:active{
+	background:#ff8000;
+	box-shadow:none; 
+}
+/* los metodos px, rem y em, son para poder establecer un tamaño ideal para los textos, o los items */
+/* los colores se oueden poner con un codigo esadecimal, o con el nombre del color, pero en negro */
+/* si yo pongo en el HTML en un archivo<a> despues del <href> pongo class="y por ejemplo aca pongo (green o mati)" y despues en el CSS pongo .mati o .grenn, y pongo color:red, o green o #000, etc; todos los archivos, que esten con la "class" "green o mati" van a cambiar a el color o size que yo le ponga */
+/* si pones # en ves de . en cuanta a la class de un archivo, lo que va a ser la # es que en ves de tomarte la class te va a tomar la id, pero solo sirve con 1 sola */
